@@ -4,7 +4,7 @@ add function with annotation
 """
 
 
-def add(a: float, b: float) -> str:
+def add(a: float, b: float) -> float:
     """
     a is a float
     b is a float
