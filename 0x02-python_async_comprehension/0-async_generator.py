@@ -4,9 +4,10 @@ async list comprehension
 """
 import random
 import asyncio
+from typing import AsyncGenerator
 
 
-async def async_generator() -> float:
+async def async_generator() -> AsyncGenerator[float, None]:
     """
     function
     """
